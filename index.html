@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lujain</title>
+  <link rel="icon" type="image/png" href="img\Adobe Express - file.png" />
+  <link rel="stylesheet" href="main.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="left-nav">
+            <div class="logo">LujAlj</div>
+            <ul class="navlist">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#awards">Awards</a></li>
+            </ul>
+            </div>
+            <div class="right-nav">
+            <a href="https://www.linkedin.com/in/lujain-waleed-41202a2a4/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/LujainWaleed" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <section class="hero">
+            <img src="img/Adobe Express - file.png" alt="Lujain's Image" class="hero-image">
+            <h1 id="text"></h1>
+            <a href="mailto:lujainwaleed16@gmail.com" class="say-hi-btn">Say Hi! 👋</a>
+        </section>
+
+
+        <!-- About Section -->
+        <section class="about section-animate" id="about">
+            <div class="ab-text"><h2># About Me</h2></div>  
+            <div class="about-container">
+                
+                <div class="about-text"> 
+                
+                <p>I’m a fresh <strong class="strong">Computer Science</strong> graduate from <strong class="strong">King Abdulaziz University</strong>, passionate about so many things, from Artificial Intelligence
+                     and Cybersecurity to Web Development and Design. I love learning and exploring new skills across different fields because knowledge excites me.</p>
+                <p>Here are some technologies I have been working with:</p>
+                <ul>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>Javascript</li>
+                    <li>C++</li>
+                    <li>mySQL</li>
+                </ul>
+                <p>In my free time, I enjoy following new developments in science. 
+                    I also love drawing and I especially love peonies (that’s why they’re featured in my logo).</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-container section-animate">
+        <h2># Experience</h2>
+        
+        <div class="experience-content">
+            
+            
+            <div class="sidebar">
+            <button class="active" onclick="showJob('Abdulaziz')">KING ABDULAZIZ UNIVERSITY</button>
+            <button onclick="showJob('Abdulaziz2')">KING ABDULAZIZ UNIVERSITY</button>
+            </div>
+
+            
+            <div class="content">
+            <div id="Abdulaziz" class="job active">
+                <h3>Undergraduate Research Assistant <span class="highlight">@ King Abdulaziz University</span></h3>
+                <p><strong>MAY 2025 – AUG 2025</strong></p>
+                <ul>
+                <li>Collaborated with faculty members to transform a student-developed system into a research paper for publication.</li>
+                <li>Contributed to system development and experimental validation.</li>
+                </ul>
+            </div>
+
+            <div id="Abdulaziz2" class="job">
+                <h3>AI Developer Intern <span class="highlight">@ King Abdulaziz University</span></h3>
+                <p><strong>JUN 2024 – SEP 2024</strong></p>
+                <ul>
+                <li>Developed an advanced chatbot powered by natural language processing (NLP) techniques, significantly enhancing  communication and student support for the KAU Scholarship Administration.</li>
+                <li>Collaborated with a team to improve the chatbot’s user experience and responsiveness, integrating feedback from users to enhance functionality.</li>
+                </ul>
+            </div>
+
+            <div id="toronto" class="job">
+                <h3>Research Assistant <span class="highlight">@ University of Toronto</span></h3>
+                <p><strong>SEP 2020 – APR 2021</strong></p>
+                <ul>
+                <li>Conducted research on distributed systems performance optimization.</li>
+                <li>Published findings in peer-reviewed journals.</li>
+                </ul>
+            </div>
+
+            <div id="centivizer" class="job">
+                <h3>Software Developer <span class="highlight">@ Centivizer</span></h3>
+                <p><strong>JAN 2020 – AUG 2020</strong></p>
+                <ul>
+                <li>Built interactive cognitive training applications for elderly patients.</li>
+                <li>Enhanced UX by redesigning UI with React.js.</li>
+                </ul>
+            </div>
+
+            <div id="orange" class="job">
+                <h3>Frontend Developer <span class="highlight">@ Orange Gate</span></h3>
+                <p><strong>JUN 2019 – DEC 2019</strong></p>
+                <ul>
+                <li>Developed responsive web apps with Vue.js.</li>
+                <li>Collaborated with designers to improve UI/UX workflow.</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        </section>
+
+
+
+
+
+        <!-- Projects Section -->
+        <section class="projects section-animate" id="projects">
+        <div class="projects-container">
+            <div class="about-text">
+            <h2># Projects</h2>
+            </div>
+            
+
+            <!-- Project Cards -->
+            <div class="project-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-header">
+                <i class="fas fa-folder"></i>
+                <div class="project-icons">
+                    <a  href="https://github.com/LujainWaleed/KrustyKrabWeb?tab=readme-ov-file"><i class="fab fa-github"></i></a>
+                    <a  href="http://www.the-krusty-krab.kesug.com/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+                </div>
+                <h3>The Krusty Krab Website</h3>
+                <p>A fun and interactive digital experience inspired by the legendary restaurant from SpongeBob SquarePants.</p>
+                <div class="project-tech">HTML / CSS, Javascript, PHP, API, mySQL</div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-header">
+                <i class="fas fa-folder"></i>
+                <div class="project-icons">
+                    <a  href="https://github.com/LujainWaleed/KAUchatbot"><i class="fab fa-github"></i></a>
+                    <a  href="files\Final Presentation.pdf"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+                </div>
+                <h3>ScolaBot</h3>
+                <p>A WhatsApp bot that aims to develop communication barriers and provide instant, accurate responses to scholarship inquiries, streamlining the process and ensuring a smoother, more efficient experience for all.</p>
+                <div class="project-tech">Python, NLP, Flask, Json, NLTK, WhatsApp API </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-header">
+                <i class="fas fa-folder"></i>
+                <div class="project-icons">
+                    
+                    <a  href="files\CPCS499_Poster_G#14.pdf"><i class="fas fa-external-link-alt"></i></a>
+                    
+                </div>
+                </div>
+                <h3>Carify</h3>
+                <p>A system that detects and tracks targeted vehicles using computer vision, generating detailed activity logs and real-time notifications with timestamps from surveillance camera data.</p>
+                <div class="project-tech">Google Colab, Python, Node.js, React.js, PostgreSQL</div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card">
+                <div class="project-header">
+                <i class="fas fa-folder"></i>
+                <div class="project-icons">
+                    <a  href="https://github.com/LujainWaleed/NNproject"><i class="fab fa-github"></i></a>
+                    <a  href="https://colab.research.google.com/drive/1Z2VAopLuPq54oRMi_D3TsH97mEIzbDDZ?usp=sharing"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+                </div>
+                <h3>NNProject</h3>
+                <p>A minimal project built to try out Streamlit, a Python library used for creating web apps for data science and machine learning models.</p>
+                <div class="project-tech">Python, Google Colab, Streamlit</div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card">
+                <div class="project-header">
+                <i class="fas fa-folder"></i>
+                <div class="project-icons">
+                    
+                    <a  href="files\Maze of Maraya.pdf"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+                </div>
+                <h3>Maze of Maraya</h3>
+                <p>The game aims to Introduce players to the projects that the Kingdom of Saudi Arabia is undertaking for the city of Al-Ula.</p>
+                <div class="project-tech">Unity, C#</div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="project-card">
+                <div class="project-header">
+                <i class="fas fa-folder"></i>
+                <div class="project-icons">
+                    
+                    <a  href="files\GSR.pdf"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+                </div>
+                <h3>AI-Driven Drone System for Detecting Oil Spills</h3>
+                <p>Developed an advanced system for detecting oil spills and identifying responsible ships to reduce environmental damage and support sustainable marine management.</p>
+                <div class="project-tech">Python, Google Colab</div>
+            </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- Awards Section -->
+        <section class="awards section-animate" id="awards">
+            <div class="awards-text"><h2># Awards</h2></div>  
+            
+        </section>
+
+        <!-- Carousel Section -->
+        <section class="carousel-section section-animate" id="carousel">
+            <div class="carousel-container">
+                <div class="carousel-slide active">
+                    <img src="img\5942695499150772713.jpg" alt="Project 1">
+                    <div class="carousel-caption">
+                        <p>Achieved second place out of 45 projects at the TechMeetUp4 hackathon, organized by Google CDC, for the project ”TouchLock: Fingerprint Biometric Integration for Banking Transactions.”</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="img\Screenshot 2025-09-21 013657.png" alt="Project 2">
+                    <div class="carousel-caption">
+                        <p>Awarded a Certificate of Excellence for outstanding academic performance 2021-2025 by KAU.</p>
+                    </div>
+                </div>
+                
+
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                    <span class="indicator active" data-slide="0"></span>
+                    <span class="indicator" data-slide="1"></span>
+                </div>
+
+                <!-- Buttons INSIDE the carousel -->
+                <button class="carousel-btn prev">‹</button>
+                <button class="carousel-btn next">›</button>
+            </div>
+        </section>
+
+
+
+
+    <script src="script.js"></script>
+    </body>
+
+    <!-- Footer -->
+    <footer class="footer">
+    <p>Built and designed by Lujain Aljahdali.<br>All rights reserved. ©</p>
+    </footer>
+</html>
