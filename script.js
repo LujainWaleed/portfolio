@@ -1,4 +1,4 @@
-const text = "Hi there! It's Lujain";
+const text = "Hi there! I'm Lujain";
 let index = 0;
 const speed = 150;
 
@@ -89,4 +89,5 @@ document.addEventListener('DOMContentLoaded', function() {
                 slideInterval = setInterval(nextSlide, 2000);
             });
         });
+
     });
