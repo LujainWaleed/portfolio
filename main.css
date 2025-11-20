@@ -178,7 +178,7 @@ body {
 
 
 .experience-container {
-  padding: 80px 50px; /* نفس padding قسم About */
+  padding: 80px 50px; 
   color: #fff;
 }
 
@@ -506,7 +506,7 @@ body {
   box-sizing: border-box;
 }
 
-/* ============ Carousel Section ============ */
+
 .carousel-section {
     padding: 80px 0;
     position: relative;
@@ -546,14 +546,14 @@ body {
     border-radius: 16px;
 }
 
-/* النص فوق الصورة — في الأسفل مع خلفية شفافة */
+
 .carousel-caption {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     padding: 25px 40px;
-    background: rgba(0, 0, 0, 0.65); /* ← شفاف شوي كما طلبت */
+    background: rgba(0, 0, 0, 0.65); 
     backdrop-filter: blur(4px);
     color: white;
     font-size: 1.1rem;
@@ -564,7 +564,7 @@ body {
     z-index: 5;
 }
 
-/* الأزرار جوا الصورة — في الجوانب */
+
 .carousel-btn {
     position: absolute;
     top: 50%;
@@ -593,7 +593,7 @@ body {
 .prev { left: 20px; }
 .next { right: 20px; }
 
-/* نقاط التحكم — في الأسفل وسط */
+
 .carousel-indicators {
     position: absolute;
     bottom: 20px;
@@ -618,7 +618,7 @@ body {
     transform: scale(1.2);
 }
 
-/* ظهور عند التمرير */
+
 .carousel-section.section-animate {
     transform: translateX(-50px);
 }
@@ -628,9 +628,7 @@ body {
 }
 
 
-/* ============ Responsive Carousel ============ */
 
-/* Mobile Responsive - مع ضمان التمركز */
 @media (max-width: 992px) {
     .sizse{
       font-size: 12px;
@@ -638,8 +636,8 @@ body {
     .carousel-container {
         height: 400px;
         border-radius: 12px;
-        margin: 0 15px; /* ← هامش جانبي بدل ما يطلع على الحافة */
-        max-width: calc(100% - 30px); /* ← يحسب العرض مع الهوامش */
+        margin: 0 15px; 
+        max-width: calc(100% - 30px); 
     }
 }
 
@@ -664,4 +662,5 @@ body {
     .carousel-section {
         padding: 40px 0;
     }
+
 }
